@@ -1,0 +1,40 @@
+body {
+  background-color: #1D4221;
+  color: white;
+  font-family: "Bai Jamjuree", sans-serif; /* Adicionado ; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Dica: '100vh' adapta melhor à altura da tela do que '700px' */
+  margin: 0;
+}
+
+button {
+  background-color: #64A712;
+  color: white;
+  font-family: "Bai Jamjuree", sans-serif;   border: none; /* Dica: remove aquela borda padrão feia de botões */
+  padding: 10px 20px; /* Dica: dá um espaço interno pro botão */
+  cursor: pointer;
+}
+
+.passo {
+  display: none;}
+
+
+.passo.ativo {
+  display: block;
+}
+
+
+main {
+  text-align: center;
+  max-width: 90%;
+}
+
+
+img {
+  max-width: 90%;
+  height: auto; 
+}
+
+
